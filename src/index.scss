@@ -1,0 +1,28 @@
+#output {
+    margin-top: 20px;
+}
+.line {
+    font-size: 12px;
+    display: flex;
+
+    .wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .match {
+        margin: 0 10px;
+
+        &.color-0 {
+            color: #7c4dff;
+        }
+
+        &.color-1 {
+            color: #1976d2;
+        }
+
+        &.color-2 {
+            color: #009688;
+        }
+    }
+}
